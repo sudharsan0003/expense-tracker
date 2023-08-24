@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.title {
+  margin: 2rem auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 350px;
+  text-align: left;
+}
+.container h3 {
+  font-size: 24px;
+}
+
+.show-container {
+  background-color: rgb(245, 243, 240);
+  color: #352f2f;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  margin: 1rem auto;
+}
+.show-container h4 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.show-container p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.money-plus {
+  color: rgb(60, 187, 60);
+}
+.money-minus {
+  color: red;
+}
+ul li button {
+  font-size: 18px;
+  width: 25px;
+  height: 25px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: red;
+  position: absolute;
+  left: 65px;
+  cursor: pointer;
+}
+
+.history {
+  text-align: center;
+  margin: 0.5rem auto;
+  font-size: 22px;
+}
+
+li {
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  font-size: 18px;
+  padding: 10px 5px;
+  background-color: rgba(232, 227, 223, 0.733);
+  border: none;
+}
+
+.transaction {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 22px;
+}
+
+.form-control {
+  width: 350px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+label {
+  font-size: 18px;
+}
+input {
+  padding: 10px;
+}
+.final-btn {
+  padding: 10px 0;
+  background-color: rgb(211, 123, 21);
+  color: #fff;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+}
+.plus {
+  border-right: 12px solid green;
+}
+.minus {
+  border-right: 12px solid red;
+}
+.delete-btn {
+  margin-left: 24rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    margin: 2rem auto;
+    font-size: 22px;
+    text-align: center;
+  }
+  .h2 {
+    font-size: 18px;
+  }
+  .container {
+    margin: 0 auto;
+    width: 350px;
+    text-align: left;
+  }
+  .container h3 {
+    font-size: 16px;
+  }
+
+  .show-container {
+    background-color: rgb(245, 243, 240);
+    color: #352f2f;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin: 0.5rem auto;
+  }
+  .show-container h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .show-container p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .money-plus {
+    color: rgb(60, 187, 60);
+  }
+  .money-minus {
+    color: red;
+  }
+  ul li button {
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: 65px;
+    cursor: pointer;
+  }
+
+  .history {
+    text-align: center;
+    margin: 0.5rem auto;
+    font-size: 18px;
+  }
+
+  li {
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 5px;
+    background-color: rgba(232, 227, 223, 0.733);
+    border: none;
+  }
+
+  .transaction {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 18px;
+  }
+
+  .form-control {
+    width: 200px;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  label {
+    font-size: 18px;
+  }
+  input {
+    padding: 10px;
+  }
+  .final-btn {
+    padding: 10px 0;
+    background-color: rgb(211, 123, 21);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  .plus {
+    border-right: 12px solid green;
+  }
+  .minus {
+    border-right: 12px solid red;
+  }
+  .delete-btn {
+    margin-left: -32px;
+  }
+}
